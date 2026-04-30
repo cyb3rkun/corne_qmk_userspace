@@ -31,8 +31,8 @@ const uint16_t PROGMEM r_parenthases[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM l_braces[] = {KC_C, KC_V, COMBO_END};
 const uint16_t PROGMEM r_braces[] = {KC_M, KC_COMM, COMBO_END};
 //angle brackets
-const uint16_t PROGMEM s_than[] = {KC_W, KC_E, COMBO_END};
-const uint16_t PROGMEM g_than[] = {KC_I, KC_O, COMBO_END};
+//const uint16_t PROGMEM s_than[] = {KC_W, KC_E, COMBO_END};
+//const uint16_t PROGMEM g_than[] = {KC_I, KC_O, COMBO_END};
 
 //grave
 const uint16_t PROGMEM grave[] = {KC_A, KC_S, COMBO_END};
@@ -87,8 +87,8 @@ combo_t key_combos[] = {
     COMBO(l_braces, KC_LCBR),
     COMBO(r_braces, KC_RCBR),
 
-    COMBO(s_than, KC_LABK),
-    COMBO(g_than, KC_RABK),
+ //   COMBO(s_than, KC_LABK),
+ //   COMBO(g_than, KC_RABK),
 
     COMBO(grave, KC_GRAVE),
     COMBO(tilde, KC_TILD),
